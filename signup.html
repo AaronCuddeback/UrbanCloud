@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanCloud Hosting</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header-inner">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">UrbanCloud</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse" onclick="openNav()">
+            <i class="fa fa-bars fa-2x"></i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="solutions.html">Solutions</a>
+            </li>
+            <li>
+              <a class="active-link" href="signup.html">Sign Up</a>
+            </li>
+            <li>
+              <a href="#login-modal" class="btn purple modal-trigger">Login</a>
+            </li>
+            <li>
+              <a href="https://facebook.com">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+
+          <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <h2 class="purple-text bold center">UrbanCloud</h2>
+              <a href="index.html">
+                <i class="fa fa-home grey-text"></i> Home</a>
+              <a href="solutions.html">
+                <i class="fa fa-cog grey-text"></i> Solutions</a>
+              <a href="#">
+                <i class="fa fa-users grey-text"></i> Sign Up</a>
+              <!-- <div class="divider"></div> -->
+              <div class="navbtn col s12 m10 center offset-m1">
+                <a href="#login-modal" class="btn btn-large purple center modal-trigger">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div class="showcase container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 center">
+          <h5>Welcome To UrbanCloud</h5>
+          <h1>Create An Account</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section: Signup -->
+  <section class="section section-signup">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h4>Get a free account</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero consectetur repellendus, quidem sapiente at ipsam
+            esse? Quia laboriosam inventore culpa?</p>
+          <h4>Download the free software</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero consectetur repellendus, quidem sapiente at ipsam
+            esse? Quia laboriosam inventore culpa?</p>
+          <h4>Push to the platform</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero consectetur repellendus, quidem sapiente at ipsam
+            esse? Quia laboriosam inventore culpa?</p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+            <form>
+              <div class="input-field">
+                <input type="text" id="first_name">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="last_name">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div class="input-field">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <input type="password" id="password">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-field">
+                <input type="text" id="company">
+                <label for="company">Company</label>
+              </div>
+              <div class="input-field">
+                <select id="role">
+                  <option value="" disabled selected>Select Role</option>
+                  <option value="professional">Professional Developer</option>
+                  <option value="hobbyist">Hobbyist</option>
+                  <option value="studen">Student</option>
+                  <option value="manager">Manager</option>
+                  <option value="other">Other</option>
+                </select>
+                <label for="role">Role</label>
+              </div>
+              <input type="submit" value="Signup" class="btn btn-large purple btn-extend">
+            </form>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Section: Footer -->
+  <footer class="page-footer deep-purple lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum harum repudiandae, ducimus voluptates iure placeat!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="solutions.html">Solutions</a>
+            </li>
+            <li>
+              <a class="grey-text text-lighten-3" href="signup.html">Sign Up</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright deep-purple darken-1">
+      <div class="container">
+        UrbanCloud © 2018
+        <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Login Modal -->
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close btn grey">
+        <i class="fa fa-sync"></i> Reset Password</a>
+      <a href="#!" class="modal-action modal-close btn purple">
+        <i class="fa fa-loc"></i> Login</a>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+      });
+      $('.modal').modal();
+      // Below line is for the slide out side nav
+      // $('.button-collapse').sideNav();
+
+      //Initialize Select Options
+      $('select').material_select();
+    });
+
+    // For Full Screen Overlay Nav
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    // End Full Screen Overlay Nav
+  </script>
+</body>
+
+</html>
